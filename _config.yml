@@ -16,20 +16,19 @@ website: https://radic.co
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
-twitter_username: JosipRadic5
 github_username:  josipradic
 stackoverflow_username: "3307584"
+linkedin_username: josip-radic-50668819
 #dribbble_username: jekyll
 facebook_username: radic.josip
 #flickr_username: jekyll
 instagram_username: josip_radich
-linkedin_username: josip-radic-50668819
 #xing_username: jekyll
 #pinterest_username: jekyll
-youtube_username: josip.radic@gmail.com
+# youtube_username: josip.radic@gmail.com
 #googleplus_username: +jekyll
 #orcid_username: 0000-0000-0000-0000
 
@@ -83,15 +82,15 @@ content:
           - Providing extensive debugging, conclusions and performance optimization patches
           - Introducing new technologies, docker containerizations, working on an automated CICD on a high level capable of building and dispatching virtually all web related projects within Kubernetes cluster
 
-          Tech:
-          - AWS, BigData, Microservices, Docker, Jenkins, Keycloak, RabbitMQ, MySQL, Galera, PostgreSQL, Oracle, HashiCorp Nomad dispatch, Terraform, Consul, Vault, Kubernetes, Rancher, Apache
-          - git, Mercurial, SVN
-          - NodeJS, Groovy, Java, Yii, Laravel, JS
-
           - Working on the KYC system which supplies reviewed, fully documented, and analyzed KYC data for legal entities and complex structures in an inherently efficient reusable digital master record format
           - Recognized as top performing developer in the team
           - Mentoring others and establishing components for easier abstraction and code extensibility
           - Participating, helping and consulting other projects within the company
+
+          **Tech**
+          - AWS, BigData, Microservices, Docker, Jenkins, Keycloak, RabbitMQ, MySQL, Galera, PostgreSQL, Oracle, HashiCorp Nomad dispatch, Terraform, Consul, Vault, Kubernetes, Rancher, Apache
+          - git, Mercurial, SVN
+          - NodeJS, Groovy, Java, Yii, Laravel, JS
       - layout: left
         title: Stromboli
         sub_title: Technical lead / Senior Developer
@@ -112,7 +111,7 @@ content:
           - Writing a technical documentation, specification
           - Improving company's IT process
 
-          Responsibilities:
+          **Responsibilities**
           - Leading a team
           - Code reviews
           - Code and storage performance optimizations
@@ -125,7 +124,7 @@ content:
           - Created a modular CMS and DMS apps
           - Worked on specific app solutions for the new clients
 
-          Tech:
+          **Tech**
           - Custom PHP frameworks, JS, MooTools, jQuery, 1kb Grid, ExtJS
           - Zend, CodeIgniter, CakePHP, Typo3
           - Joomla, Magento
@@ -142,7 +141,7 @@ content:
           - Made improvements pivoting unlimited lists of product fields vertically and horizontally
           - Custom made CSS framework, increased the overall compatibility between browsers
 
-          Tech:
+          **Tech**
           - CodeIgniter, MooTools, jQuery
           - CSS framework and 1kb grid system
       - layout: left
@@ -157,14 +156,14 @@ content:
           - Responsible for updates and new software features
           - Administrating the IT network
 
-          Tech:
+          **Tech**
           - Custom PHP framework and queued messaging
           - Linux
           - Windows
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: left
         title: Polytechnicum Zagrabiense
         sub_title: Master of Information technologies
         caption: 2003 - 2008
