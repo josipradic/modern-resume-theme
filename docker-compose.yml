@@ -11,3 +11,6 @@ services:
       - 35729
     volumes:
       - ./:/srv/jekyll
+    environment:
+      JEKYLL_UID: 1026
+      JEKYLL_GID: 100
