@@ -21,7 +21,7 @@ darkmode: true
 # Social links
 twitter_username: JosipRadic5
 github_username:  josipradic
-stackoverflow_username: 3307584
+stackoverflow_username: "3307584"
 #dribbble_username: jekyll
 facebook_username: radic.josip
 #flickr_username: jekyll
@@ -132,7 +132,7 @@ content:
       - layout: left
         title: AmiWEB (CA US)
         sub_title: Senior Developer
-        caption: 2011
+        caption: "2011"
         link: 
         # quote: >
         #   Short description of the company (optional)
