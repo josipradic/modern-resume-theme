@@ -1,6 +1,6 @@
 # Site
 repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
@@ -12,35 +12,35 @@ email: josip@radic.co
 # email_title: Email (Email title override)
 phone: +385 98 623 757
 # phone_title: Phone (Phone title override)
-website: http://radic.co
+website: https://radic.co
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-#twitter_username: jekyllrb
+twitter_username: JosipRadic5
 github_username:  josipradic
-stackoverflow_username: "user10478435"
+stackoverflow_username: 3307584
 #dribbble_username: jekyll
 facebook_username: radic.josip
 #flickr_username: jekyll
 instagram_username: josip_radich
-#linkedin_username: jekyll
+linkedin_username: josip-radic-50668819
 #xing_username: jekyll
 #pinterest_username: jekyll
-#youtube_username: jekyll
+youtube_username: josip.radic@gmail.com
 #googleplus_username: +jekyll
 #orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+- title: Bitbucket
+  icon: fab fa-bitbucket
+  url: https://bitbucket.org/josip-radic
+- title: Docker
+  icon: fab fa-docker
+  url: https://hub.docker.com/u/josipradic
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -49,16 +49,16 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
+about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
+about_content: |
   An IT geek since the age of six who had an amazing opportunity to be a part of the pre-internet era experiencing the intensive technological achievements and being lucky enough to play with a wide range of technologies and meeting a bunch of amazing people in that path.
 
   I find myself as a highly motivated, proactive, reliable and hard-working person. An extrovert and a problem solver. Flexible to adapt in any team or work environment. Friendly, focused and calm in stressed situations.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
         title: NDA
@@ -73,7 +73,7 @@ content:
         #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
           Developer
-        description: | # this will include new lines to allow paragraphs
+        description: |
           - Maintaining software for automatic bulk SMS messaging
           - Responsible for updates and new software features
           - Administrating the IT network
@@ -92,7 +92,7 @@ content:
         link: Link to company (optional)
         quote: >
           Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Description of role
   - title: Education
     layout: list
@@ -103,18 +103,18 @@ content:
         caption: Date Range (eg. 2016 - 2019)
         quote: >
           Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Description of qualification
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: |
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+footer_show_references: false
+references_title: References on request (Override references text)
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
@@ -138,4 +138,4 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
-  ]
+]
