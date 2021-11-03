@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Josip Radic
-title: Freelancer (Senior Developer / Technical Lead)
+title: Freelancer (Technical Lead / Senior Developer)
 email: josip@radic.co
 # email_title: Email (Email title override)
 phone: +385 98 623 757
@@ -57,22 +57,101 @@ about_content: |
   I find myself as a highly motivated, proactive, reliable and hard-working person. An extrovert and a problem solver. Flexible to adapt in any team or work environment. Friendly, focused and calm in stressed situations.
 
 content:
-  - title: Projects
+  - title: Experience
     layout: list
     content:
       - layout: left
-        title: NDA
-        #link: NDA
-        #link_text: Link Text
-        #additional_links:
-        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #    icon: fab fa-github
-        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #    icon: fab fa-github
-        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Developer
+        title: Scopic Software
+        sub_title: Technical lead / Senior Developer
+        caption: January 2017 - present
+        link: https://www.scopicsoftware.com
+        # quote: >
+        #   Short description of the company (optional)
+        description: |
+          - Architecting from scratch a serverless AWS solution for BigData healthcare company using a wide range of AWS service and resources, leading a team, participating and deciding in all architectural decisions
+          - Working closely with Director of Engineering ensuring process policies and good quality coding standards for projects and company's clients
+          - Architecture documentations, proposals, reviews
+          - Reviewing projects' estimates and technical documentations, providing feedbacks and suggestions
+          - Supporting the other departments
+          - Participating in sales, SDLC initiatives, technical process improvements, training and mentoring
+          - Performance reviews, interviewing and recruiting
+          
+          - Contributing in architectural and product decisions for KYC system
+          - Working with DevOps creating a custom cluster solution (HA, horizontal and vertical scaling)
+          - Participating in many other projects (small to big sized companies)
+          - As part of the TL position I am coordinating teams, performing regular code reviews, taking care of bash automated scripts for builds and deployments, ensuring the quality of product and suggesting improvements
+          - Providing extensive debugging, conclusions and performance optimization patches
+          - Introducing new technologies, docker containerizations, working on an automated CICD on a high level capable of building and dispatching virtually all web related projects within Kubernetes cluster
+
+          Tech:
+          - AWS, BigData, Microservices, Docker, Jenkins, Keycloak, RabbitMQ, MySQL, Galera, PostgreSQL, Oracle, HashiCorp Nomad dispatch, Terraform, Consul, Vault, Kubernetes, Rancher, Apache
+          - git, Mercurial, SVN
+          - NodeJS, Groovy, Java, Yii, Laravel, JS
+
+          - Working on the KYC system which supplies reviewed, fully documented, and analyzed KYC data for legal entities and complex structures in an inherently efficient reusable digital master record format
+          - Recognized as top performing developer in the team
+          - Mentoring others and establishing components for easier abstraction and code extensibility
+          - Participating, helping and consulting other projects within the company
+      - layout: left
+        title: Stromboli
+        sub_title: Technical lead / Senior Developer
+        caption: June 2009 - December 2016
+        link: 
+        # quote: >
+        #   Short description of the company (optional)
+        description: |
+          - Leading a small team of developers
+          - Was included in all software-wise decisions
+          - Architecting solution improvements for existing software used by clients
+          - Created several software prototypes as a teaser for sales
+          - Version of CMS that allows admins to build their own modules
+          - Created a ticketing system for incidents
+          - Sales incentive app used by (at that time big) mobile phone manufacturer
+          - Web email client
+          - Participating in sales, sales meetings and work competitions
+          - Writing a technical documentation, specification
+          - Improving company's IT process
+
+          Responsibilities:
+          - Leading a team
+          - Code reviews
+          - Code and storage performance optimizations
+          - Technical documentation
+          - Participating in sales, estimations and selling prices
+          - Interviewing for development positions
+
+          - Working with private companies and government foundations
+          - Developing and maintaining already existing web apps from company's portfolio
+          - Created a modular CMS and DMS apps
+          - Worked on specific app solutions for the new clients
+
+          Tech:
+          - Custom PHP frameworks, JS, MooTools, jQuery, 1kb Grid, ExtJS
+          - Zend, CodeIgniter, CakePHP, Typo3
+          - Joomla, Magento
+      - layout: left
+        title: AmiWEB (CA US)
+        sub_title: Senior Developer
+        caption: 2011
+        link: 
+        # quote: >
+        #   Short description of the company (optional)
+        description: |
+          - Upgrading an existing CMS with new features
+          - Working on optimization of handling thousands of hosted applications
+          - Made improvements pivoting unlimited lists of product fields vertically and horizontally
+          - Custom made CSS framework, increased the overall compatibility between browsers
+
+          Tech:
+          - CodeIgniter, MooTools, jQuery
+          - CSS framework and 1kb grid system
+      - layout: left
+        title: IDB Mobile Technology
+        sub_title: Developer / IT Administrator
+        caption: March 2006 - July 2006
+        link: 
+        # quote: >
+        #   Short description of the company (optional)
         description: |
           - Maintaining software for automatic bulk SMS messaging
           - Responsible for updates and new software features
@@ -82,35 +161,17 @@ content:
           - Custom PHP framework and queued messaging
           - Linux
           - Windows
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: |
-          Description of role
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: |
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: |
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+        title: Polytechnicum Zagrabiense
+        sub_title: Master of Information technologies
+        caption: 2003 - 2008
+        # quote: >
+        #   Short institution or course description (optional)
+        # description: |
+        #   Description of qualification
 
 # Footer
 footer_show_references: false
